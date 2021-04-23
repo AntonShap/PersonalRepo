@@ -1,0 +1,38 @@
+﻿#buttons 
+{   
+    
+margin: 100px 0 100px 0;
+}
+
+#buttons input
+{
+    color: rgb(190, 36, 36);
+    width: 200px;
+}
+
+#buttons input:nth-child(3)
+{
+    position: relative; 
+   
+    right: 0x;
+}
+
+#buttons input:nth-child(2)
+{
+    position: relative;
+   
+    right: 0;
+}
+
+ #list2 li
+{
+    display: inline-block;
+    border-style: solid;
+    border-color: black;   
+}
+
+#list2 :nth-child(3)
+{
+    position: relative; 
+    top: 20px;
+}

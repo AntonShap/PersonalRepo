@@ -1,0 +1,112 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;   
+  background-color: wheat;
+}
+
+main
+{
+ background-color: rgba(179, 230, 245, 0.534);   
+ padding: 100px;
+ margin: 100px;
+}
+
+h1, h2 
+{
+    font-size: 0.8em;
+    color: #549137;
+    color: #318cb6;
+}
+
+.vertical
+{
+   font-size: 0.7em; 
+}
+
+h3 
+{
+    color: rgba(109, 108, 108, 0.575)
+}
+
+h4 
+{
+    color: cadetblue;
+}
+
+h5 
+{
+    color: cornflowerblue;
+}
+
+h6 
+{
+    color: darkgreen;
+    font-style: italic
+}
+
+ul 
+{
+    list-style: none;
+}
+
+ul li 
+{
+    display: inline-block;
+    background-color: #cccc99;
+    padding: 10px ;
+    margin: 1px ;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+    width: 200px;
+    text-align: center;
+}
+
+#list
+{
+    background-color: rgb(182, 137, 54);
+    padding: 1px;
+    margin: 50px; 
+}
+
+.horizontal li {
+    display: inline;
+    background-color: #accc99;
+    padding: 10px ;
+    margin: 25px ;
+    border-style: solid;
+    border-color: rgb(0, 139, 23);
+    border-width: 1px;
+    text-align: center;
+}
+
+.horizontal
+{
+    list-style: none;
+    text-align: center;
+}
+
+.horizontal li :hover
+{
+    background-color: tomato;
+}
+
+
+
+.horizontal li a
+{
+    text-decoration: none
+    /*removes the underline from the link */
+}
+
+.menu li {
+    color: black;
+    display: inline-block;
+    background-color: white;
+    padding: 10px ;
+    margin: 25px ;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+}
